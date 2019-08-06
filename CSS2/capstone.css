@@ -1,0 +1,30 @@
+body{
+  background: #011627;
+  color: white;
+  border: cyan 20px solid;
+  margin:auto;
+  text-align: center;
+  padding: 100px;
+  margin:auto;
+
+}
+
+.heading{
+  font-color: white;
+  margin: auto;
+}
+
+h1{
+  font: white;
+}
+.signup{
+  font-size: 30px;
+}
+
+#submit{
+  background-color: yellow;
+  height:80px;
+  width:150px;
+  font-size: 25px;
+  border-radius: 25px;
+}

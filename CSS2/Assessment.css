@@ -1,0 +1,30 @@
+
+.tb{
+  margin:auto;
+}
+td{
+  background-color: black;
+  height: 300px;
+  width: 200px;
+
+}
+h1{
+  text-align: center;
+  font-family: 'Baloo Chettan', cursive;
+  font-weight: bold;
+}
+#one{
+  background-color: #B8336A;
+}
+#two{
+  background-color: #C490D1;
+}
+#three{
+  background-color: #ACACDE;
+}
+#four{
+  background-color: #ABDAFC;
+}
+#five{
+  background-color: #E5FCFF;
+}

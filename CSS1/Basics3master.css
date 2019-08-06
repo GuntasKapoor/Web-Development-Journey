@@ -1,0 +1,43 @@
+/* classes always start with a . */
+ /* and ids always with  a # */
+
+.firstDiv{
+  color: red;
+}
+
+.secondDiv{
+  color: blue;
+}
+
+/* id */
+#singledout{
+  color: green;
+  text-decoration: underline;
+}
+
+/* an asterisk is for every tag on the page(except ids)..! */
+
+/* ., *, and # are called selectors */
+
+
+*{
+  color: black;
+}
+
+/* any ul tag immediately next to h3 tag is affected */
+
+h3 + ul{
+  border: 2px red dotted;
+}
+
+/* descendants and attributes */
+/* descendants */
+li input{
+  color: yellow;
+}
+
+/* to go down the list we can use attribute */
+li a[href="https://www.google.com"]{
+  color:blue;
+  border: 3px orange;
+}

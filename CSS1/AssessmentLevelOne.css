@@ -1,0 +1,29 @@
+body{
+  background: skyblue;
+}
+
+h1{
+  border: 2px black solid;
+}
+
+#greet{
+  background-color: lightyellow;
+}
+#first{
+    color: purple;
+    text-decoration: overline;
+}
+#textarea1{
+  border: 5px grey solid;
+}
+#text{
+  border: 5px yellow dashed;
+}
+
+.details{
+border: 2px maroon solid;
+}
+
+h2{
+  color: purple;
+}

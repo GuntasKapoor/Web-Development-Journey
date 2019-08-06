@@ -1,0 +1,39 @@
+<!-- Some More Inputs..! Radio,Dropdown Menus, Text Area Inputs -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+
+<h1>Hotel Feedback Form</h1>
+<form method="get">
+  <!-- Radio Buttons -->
+  <h2>Are You Indian</h2>
+  <!-- Note that to link two Radio buttons, we have to give them the same name -->
+  <label for="Yes">YES: </label>
+  <input id="Yes" type="radio" name="answer" value="">
+  <label for="No">NO: </label>
+  <input id="No" type="radio" name="answer" value="">
+
+  <!-- Dropdown Menus -->
+  <h2>Ratings:-</h2>
+  <select name="rating">
+    <option value="3">Great</option>
+    <option value="2">Okay</option>
+    <option value="1">Bad</option>
+  </select>
+
+  <!-- TextArea -->
+
+  <h2>Any other feedback?</h2>
+
+  <textarea name="mytext" rows="8" cols="80"></textarea>
+
+  <input type="submit" name="" value="Submit">
+</form>
+
+  </body>
+</html>

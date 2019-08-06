@@ -1,0 +1,30 @@
+/* hello this is my first css file */
+
+/* basic syntax for a basic css file */
+
+/* Tag to edit{
+  propertofTag: valueofTag;
+} */
+
+/* example */
+
+h1{
+  color: blue;
+}
+/* Basically first link css with the html and then work on the css */
+
+/* You dont have to memorize the properties */
+
+li{
+  color: rgba(255, 0, 0, 0.2);
+  /* a stands for alpha-->transparency */
+}
+
+h4{
+  color: rgb(180,200,100);  /*other way to change color*/
+}
+
+p{
+  /* changing color using hex code */
+  color: #0895a8;
+}
